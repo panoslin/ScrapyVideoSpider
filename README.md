@@ -5,7 +5,7 @@
 This scrapy project can only be used for the purpose of studying.   
 Do not ever try to use it for commercial reason and business!   
 For those who make profit by this code and probably were charged so,   
-I personally DO NOT take any responsibility for that!
+I personally DO NOT take any responsibility
 
 ***
 ### Introduction
