@@ -85,7 +85,7 @@ class DownloadThread(threading.Thread):
             print("Connection error {e} occors...".format(e=e))
             return
 
-        prefix = 'https://image.tvcbook.com/default/avatar/'
+        prefix = 'https://www.domain.com/avatar/'
         Y, m, d = config.get("date", "db_in_date").split('/')
         avatar_ = os.path.join(prefix, Y, m + d, FileName).replace('\\', '/')
         data['user_profile']['avatar'] = avatar_
